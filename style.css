@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image:url("https://wallpapershome.com/images/pages/pic_h/29396.jpg");
+    min-height: 100vh;
+    background-size:cover;
+}
+.inputttt{
+    height:25px;
+    border-radius:10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.responeqq{
+    padding-left: 20px;
+    color:#e8335a;
+    font-family: cursive;
+    font-size:30px;
+
+
+}
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    
+    
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ed859b;
+    color:white;
+}
+
+.yes {
+    background: #ed859b;
+    color: white;
+}
+
+.no {
+    background: #444;
+    color: white;
+    position: absolute;
+}
