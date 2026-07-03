@@ -26,6 +26,9 @@ noBtn.addEventListener("Enter",moveNoButton);
 
 // Mobile touch
 noBtn.addEventListener("touchstart", moveNoButton);
+noBtn.addEventListener("Enter",()=>{
+    saveResponse("No);
+});
 
 // If somehow clicked
 noBtn.addEventListener("click", () => {
