@@ -28,6 +28,7 @@ noBtn.addEventListener("mouseover", moveNoButton);
 noBtn.addEventListener("touchstart", moveNoButton);
 noBtn.addEventListener("keydown",(e)=>{
     if(e.key==="Enter"){
+        e.preventDefault();
         moveNoButton();
     }
 });
