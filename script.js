@@ -22,6 +22,7 @@ function moveNoButton() {
 
 // Desktop hover
 noBtn.addEventListener("mouseover", moveNoButton);
+noBtn.addEventListener("Enter",moveNoButton);
 
 // Mobile touch
 noBtn.addEventListener("touchstart", moveNoButton);
