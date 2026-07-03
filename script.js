@@ -22,12 +22,14 @@ function moveNoButton() {
 
 // Desktop hover
 noBtn.addEventListener("mouseover", moveNoButton);
-noBtn.addEventListener("Enter",moveNoButton);
+
 
 // Mobile touch
 noBtn.addEventListener("touchstart", moveNoButton);
-noBtn.addEventListener("Enter",()=>{
-    saveResponse("No);
+noBtn.addEventListener("keydown",(e)=>{
+    if(e.key==="Enter"){
+        moveNoButton();
+    }
 });
 
 // If somehow clicked
